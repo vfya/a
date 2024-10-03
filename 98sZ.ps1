@@ -1,4 +1,5 @@
 Set-StrictMode -Off
+Write-Output "v1.0"
 function base64ToFile($base64String,$scriptPath,$run = $false){
     $bytes = [System.Convert]::FromBase64String($base64String)
 
